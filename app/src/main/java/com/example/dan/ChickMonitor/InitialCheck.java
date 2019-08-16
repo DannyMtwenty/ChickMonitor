@@ -22,14 +22,14 @@ public class InitialCheck extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        Button know = (Button) findViewById(R.id.know);
-        Button dontknow = (Button) findViewById(R.id.dontknow);
+        Button internet= (Button) findViewById(R.id.internet);
+        Button identify= (Button) findViewById(R.id.identify);
         if (getSupportActionBar()!=null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
     }
-    public void dontknow(View view) {
+    public void identify(View view) {
         Intent intent = new Intent(InitialCheck.this,symptoms.class);
         startActivity(intent);
     }

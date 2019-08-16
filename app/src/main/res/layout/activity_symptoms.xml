@@ -30,10 +30,10 @@
         android:layout_marginTop="20dp">
 
         <CheckBox
-            android:id="@+id/coccidiosis"
+            android:id="@+id/fever"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Coccidiosis"
+            android:text="fever"
             android:onClick="SelectSymptoms"
             android:layout_marginLeft="20dp"/>
 

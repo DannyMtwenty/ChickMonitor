@@ -5,25 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="com.example.visha.healthcare.com.example.dan.ChickMonitor.InitialCheck"
+    tools:context="com.example.dan.ChickMonitor.InitialCheck"
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:background="@drawable/question"/>
+        android:background="@drawable/diseaseicon2" />
 
     <Button
-        android:id="@+id/know"
+        android:id="@+id/internet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:background="#FFF5EE"
         android:onClick="diseaselist"
-        android:text="I know my disease"
+        android:text="Know more from the Internet"
         android:textColor="#0a285c"
         android:textSize="20dp"
         android:textStyle="bold" />
@@ -38,14 +38,14 @@
         android:textSize="25dp" />
 
     <Button
-        android:id="@+id/dontknow"
+        android:id="@+id/identify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:background="#FFF5EE"
-        android:onClick="dontknow"
-        android:text="I need help identifying my disease"
+        android:onClick="identify"
+        android:text="Diagonize your chick disease"
         android:textColor="#0a285c"
         android:textSize="20dp"
         android:textStyle="bold" />
